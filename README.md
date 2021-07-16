@@ -1,4 +1,4 @@
-#Rate limiter (Traffic shaping)
+# Rate limiter (Traffic shaping)
 
 We are solving (Partially) below mentioned problem:
 
@@ -27,6 +27,7 @@ specialization:
         HOUR -> 40
         WEEK -> 900
         MONTH -> 1000
+
 type: API
  - /status :
        limit:
